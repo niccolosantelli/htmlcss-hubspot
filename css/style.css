@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collasso::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.sezione_primo_navbar{
+  background-color: grey;
+  width: 1366px;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.primo_navbar{
+  width:956px;
+  height: 80px;
+  margin: auto;
+
+
+}
+
+.primo_menu{
+  width: 50%;
+  height: 80px;
+}
+
+.fl{
+  float: left;
+}
+
+.sezione_secondo_navbar{
+  background-color: yellow;
+  width: 1366px;
+  height: 80px;
+}
+
+.secondo_navbar{
+  width:956px;
+  height: 80px;
+  margin: auto;
+
+
+}
+
+.secondo_menu{
+  width: 50%;
+  height: 80px;
+}
+
+
+.container_primas{
+  width:956px;
+  height: 695px;
+  margin: auto;
+  }
+
+.header_box_sx{
+  width: 50%;
+  height: 695px;
+}
+
+.titolo_p{
+  width: 400px;
+  height: 380px;
+}
+
+.barra_fine{
+  width: 1366px;
+  height: 85px;
+  background-color: grey;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.sfondo_servizi{
+  width: 1366px;
+  background-color: lightblue;
+}
+
+
+.free_hub{
+  width: 956px;
+  height: 315px;
+  margin: auto;
+  background-color: gray;
+}
+
+.tre_blocchi{
+  width: 956px;
+  height: 700px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: gray;
+}
+
+.blocco_servizi{
+  width: 280px;
+  height: 500px;
+  margin: 19.30px;
+  background-color: yellow;
+}
+
+.sfondo_comunity{
+  width: 1366px;
+  background-color: blue;
+}
+
+.container_tabella_main{
+  width: 956px;
+  height: 800px;
+  margin: auto;
+  background-color: green;
+}
+
+.titolo_sotto_titolo{
+  width: 956px;
+  height: 300px;
+  background-color: white;
+}
+
+.blocco1{
+  width:239px;
+  height: 200px;
+  background-color: red;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.blocco2{
+  width:239px;
+  height: 200px;
+  background-color: red;
+  border-right: 1px solid black;
+}
+
+.sfondo_sponsor{
+  width: 1366px;
+  background-color: orange;
+}
+
+.container_1sponsor{
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  background-color: white;
+}
+
+.sponsor_sx{
+  width: 30%;
+  height: 200px;
+  background-color: gray
+}
+
+.sponsor_dx{
+  width:70%;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.container_descrizione_sponsor{
+  width: 956px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+}
+
+.descrizione_foto{
+  width: 40%;
+  height: 500px;
+  background-color: grey;
+}
+
+.foto_donna{
+  width: 60%;
+  height:300px;
+  background-color: red;
+}
+
+.sfondo_footer{
+  width: 1366px;
+  height: 700px;
+  background-color: blue;
+
+}
+
+.sezione_colonne{
+  width: 956px;
+  height: 700px;
+  margin: auto;
+}
+
+.colonne{
+  width: 239px;
+  height: 350px;
+  background-color: white;
+}
+
+.lingue a{
+  width: 956px;
+  height: 20px;
+  color:black
+}
+
+.lingue{
+  margin: 20px;
+  text-align: center;
+}
+
+.finale{
+  width: 956px;
+  height: 150px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.logo_finale_sx{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+.testo_finale_dx{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
