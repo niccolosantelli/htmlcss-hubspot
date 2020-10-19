@@ -548,7 +548,7 @@ a{
 .colonne{
   width: 239px;
   height: 350px;
-  background-color: #2d3e50;
+  background-color: ##cbd6e2;
 
 }
 
@@ -572,6 +572,10 @@ a{
   margin: 20px;
   text-align: center;
 }
+.lingue a{
+  margin-right: 20px;
+  color: #cbd6e2;
+}
 
 .finale{
   width: 956px;
@@ -583,11 +587,18 @@ a{
 .logo_finale_sx{
   width: 50%;
   height: 100%;
-  background-color: red;
+  background-color: #2d3e50;
+  
 }
 
 .testo_finale_dx{
   width: 50%;
   height: 100%;
-  background-color: red;
+  text-align: right;
+  background-color: #2d3e50;
+}
+
+.testo_finale_dx a{
+  margin-left: 20px;
+  color: #cbd6e2;
 }
