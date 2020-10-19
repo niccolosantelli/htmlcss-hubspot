@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .collasso::after{
   content: "";
   display:table;
@@ -106,7 +107,7 @@ a{
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 50% 0%}
+  background-position: 50% -5%}
 
 .container_primas{
   width:956px;
@@ -156,22 +157,76 @@ a{
 .barra_fine{
   width: 1366px;
   height: 85px;
-  background-color: grey;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  background-color: #afebe4;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
 }
 
 .sfondo_servizi{
   width: 1366px;
-  background-color: lightblue;
+  background-color: #f5f8fa;
 }
+
+.cubetto{
+  margin: auto;
+  width: 700px;
+  height: 330px;
+  text-align: center;
+  color:#33475b
+}
+
+.cubetto img{
+  margin-top: 40px;
+}
+
+.cubetto p{
+  margin-top: 20px;
+}
+
+
 
 
 .free_hub{
   width: 956px;
   height: 315px;
   margin: auto;
-  background-color: gray;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.fh_sx{
+  width: 40%;
+  text-align:center;
+}
+
+.libro{
+  margin-top: 50px;
+  width: 40%;
+}
+
+.more{
+  margin-top: 50px;
+}
+
+.more a{
+  color:white;
+  border: 1px solid #ff7a59;
+  background-color: #ff7a59;
+  border-radius: 8px;
+  padding: 12px
+
+}
+
+.fh_dx{
+  width: 60%;
+}
+
+.fh_dx h4,p{
+  margin-top: 50px;
+}
+
+.span1{
+  margin-top: 20px;
 }
 
 .tre_blocchi{
@@ -179,7 +234,6 @@ a{
   height: 700px;
   margin: auto;
   margin-top: 15px;
-  background-color: gray;
 }
 
 .blocco_servizi{
