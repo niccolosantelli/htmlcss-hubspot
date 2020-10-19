@@ -233,15 +233,53 @@ a{
   width: 956px;
   height: 700px;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 40px;
+}
+.blocco_servizi{
+  width: 30%;
+  height: 525px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.blocco_margine{
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-.blocco_servizi{
-  width: 280px;
-  height: 500px;
-  margin: 19.30px;
-  background-color: yellow;
+
+.img_1_blocco{
+  width: 60%;
 }
+
+
+.testo_blocco{
+  width: 250px;
+  height: 500px;
+  margin: 20px;
+}
+
+.blocco_servizi p{
+  margin-top: 35px;
+}
+
+.blocco_servizi h4{
+  margin-top: 10px;
+}
+.blocco_servizi hr{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.blocco_servizi ul{
+  margin-top: 20px;
+}
+
+.blocco_servizi li{
+  text-align: left;
+  list-style-type: none;
+}
+
 
 .sfondo_comunity{
   width: 1366px;
