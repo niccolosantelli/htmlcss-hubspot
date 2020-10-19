@@ -10,32 +10,69 @@
   clear: both;
 }
 
+.fl{
+  float: left;
+}
+
+.vl{
+  display: inline-block;
+  border-left: 1px solid #33475b;
+  height: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
 .sezione_primo_navbar{
-  background-color: grey;
+  background-color: #f5f8fa;
   width: 1366px;
   height: 80px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #33475b;
 }
 
 .primo_navbar{
   width:956px;
   height: 80px;
   margin: auto;
-
-
 }
 
 .primo_menu{
   width: 50%;
   height: 80px;
+  text-align: left;
+  line-height: 80px;
 }
 
-.fl{
-  float: left;
+.primo_menu a{
+  color: #33475b;
+  padding: 12px;
 }
+
+
+.p2{
+  text-align: right;
+}
+
+.primo_menu > .col_login{
+  color:#ff7a59;
+  border: 1px solid #ff7a59;
+  border-radius: 8px;
+  background-color: white;
+  margin: 20px
+}
+.primo_menu > .col_gethub{
+  color: white;
+  border: 1px solid #ff7a59;
+  background-color: #ff7a59;
+  border-radius: 8px;
+
+}
+
+
 
 .sezione_secondo_navbar{
-  background-color: yellow;
+  background-color: white;
   width: 1366px;
   height: 80px;
 }
@@ -44,25 +81,42 @@
   width:956px;
   height: 80px;
   margin: auto;
-
-
 }
 
-.secondo_menu{
+.secondo_sx{
   width: 50%;
   height: 80px;
+  text-align: left;
+  line-height: 100px;
+
+}
+.secondo_dx{
+  width: 50%;
+  height: 80px;
+  text-align: right;
+  line-height: 80px;
 }
 
+.secondo_dx > a,i{
+  margin: 5px;
+  color: #33475b;
+}
+
+.img_sfondo{
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 0%}
 
 .container_primas{
   width:956px;
-  height: 695px;
+  height: 580px;
   margin: auto;
   }
 
 .header_box_sx{
   width: 50%;
-  height: 695px;
+  height: 580px;
 }
 
 .titolo_p{
@@ -70,12 +124,41 @@
   height: 380px;
 }
 
+.titolo_p h1{
+  font-size: 40px;
+  margin-top: 40px;
+  color: #33475b;
+}
+
+.titolo_p p{
+  font-size: 12px;
+  margin-top: 40px;
+  color: #33475b;
+}
+
+.bott_centro{
+  margin-top: 40px;
+}
+.bott_centro > a{
+  color: white;
+  border: 1px solid #ff7a59;
+  background-color: #ff7a59;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.titolo_p > p.sott_primas{
+  font-size: 10px;
+  color: #33475b;
+}
+
+
 .barra_fine{
   width: 1366px;
   height: 85px;
   background-color: grey;
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .sfondo_servizi{
